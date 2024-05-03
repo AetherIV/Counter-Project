@@ -1,0 +1,44 @@
+body{
+    background-image: url(background.jpg);
+    background-position: center;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    text-shadow: 1px 1px 3px grey;
+    color: darkslategray;
+    background-color: wheat;
+    border: 1px solid grey;
+    padding: 10px;
+}
+
+
+#countLabel{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family: 'Courier New', Courier, monospace;
+}
+#btnContainer{
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.buttons {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 6px outset;
+    border-color: hsla(0, 2%, 43%, 0.979);
+    font-size: 20px;
+    border-radius: 2em;
+    box-shadow: 4px 4px 2px black;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: background-color 1.55s, transform 1.55s; /* Transition for color and transform */
+}
+
+.buttons.enlarged {
+    transform: scale(1.1); /* Scale up when hovered */
+    background-color: rgba(136, 133, 133, 0.993);
+}
